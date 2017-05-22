@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoForTeamA(View v) {
         scoreTeamA += 2;
-        displayForTeamA(2);
+        displayForTeamA(scoreTeamA);
     }
 
     /**
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamA(View v) {
         scoreTeamA += 3;
-        displayForTeamA(3);
+        displayForTeamA(scoreTeamA);
     }
 
     /**
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoForTeamB(View v) {
         scoreTeamB += 2;
-        displayForTeamB (2);
+        displayForTeamB (scoreTeamB);
     }
 
     /**
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamB(View v) {
         scoreTeamB += 3;
-        displayForTeamB (3);
+        displayForTeamB (scoreTeamB);
     }
 
     /**
